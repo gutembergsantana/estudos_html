@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>MediCenter</title>
     <link rel="stylesheet" type="text/css" href="assets/css/template.css"/>
-    <!--
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css"/>
+    
     <script type="text/javascript">
-    Window.onload = function(){
+    window.onload = function(){
         document.querySelector(".menuMobile").addEventListener("click",function(){
             if(document.querySelector(".menu nav ul").style.display == 'flex'){
                 document.querySelector(".menu nav ul").style.display = 'none';
@@ -17,7 +18,7 @@
         });
     };
     </script>
--->
+
 </head>
 <body>
     <header>
@@ -28,11 +29,16 @@
            
             <div class="menu">
                 <nav>   <!-- Informa aos buscadores e leitores especiais que é um menu-->
-                    <input type="checkbox" id="chec">
+                <!--    <input type="checkbox" id="chec">
                     <label for="chec">
                         <img id="risco" src="assets/images/risco_menu.jpg">
                     </label>   
-                    
+                -->  
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>  
                     <ul>
                         <li><a href="">Bancos</a></li>
                         <!--<ul>
