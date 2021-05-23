@@ -1,2 +1,6 @@
-Criação de um novo repositório para projetos em HTML e CSS
-na pasta /mnt/Trabalho/Projetos Html
+# Projetos em Html
+
+## Descrição do Projeto
+<p align="justify"> Exemplos de sites usando html durante estudos realizados.</p>
+
+>Status do Projeto: Em andamento
